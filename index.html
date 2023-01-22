@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Noto+Color+Emoji&family=Roboto+Mono:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Habits</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="./assets/logo.svg" alt="Logomarca do aplicativo Habits" />
+      <button class="register-button">
+
+        <img src="./assets/plus_icon_button.svg" alt="ícone do botao" />
+        
+        <div>Registrar o meu dia</div>
+      </button>
+    </header>
+
+    <!-- Os inputs ficam normalmente dentro da tag FORM -->
+    <form id="form-habits">
+      <!-- tag/caixa genérica -->
+      <div class="habits">
+        <div class="habit" data-name="gym">&#127947</div>
+        <div class="habit" data-name="water">&#128167</div>
+        <div class="habit" data-name="food">&#129367</div>
+        <div class="habit" data-name="sleep">&#128164</div>
+        <div class="habit" data-name="study">&#128218</div>
+      </div>
+      <div class="days"></div>
+    </form>
+
+    <script src="https://cdn.jsdelivr.net/gh/maykbrito/libs/NLWSetup/source/NLWSetup.js"></script>
+    <script src="./script.js"></script>
+
+  </body>
+</html>
