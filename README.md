@@ -19,20 +19,20 @@ O Tracker Healthy foi desenvolvido através da NWL Setup, um evento exclusivo e g
   <img alt="projeto DevLinks" src="./.github/preview.jpg" width="100%">
 </p>
 
-## ?? Tecnologias
+## :computer: Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- HTML e CSS
+- HTML e CSS 
 - JavaScript
 - Git e Github
 - Figma
 
-## ?? Projeto
+## :bookmark_tabs: Projeto
 
 O Tracker Healthy é um app para ajudar a criar e rastrear hábitos saudáveis.
 
-## ?? Layout
+## :paintbrush: Layout
 
 Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/community/file/1187422022288947321). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
